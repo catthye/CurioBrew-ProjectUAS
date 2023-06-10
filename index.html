@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CurioBrewCoffee-Project UAS</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.reflowhq.com/v2/toolkit.min.css">
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Animation Link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <img src="img/logo.png" alt="" class="img-logo" />
+
+      <div class="navbar-nav">
+        <a href="#">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#menu">Coffee</a>
+        <a href="#products">Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="shoping-card.html"
+          ><i data-feather="shopping-cart"></i
+        ></a>
+        
+      </div>
+
+      <!-- Search Form start -->
+      <!-- <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div> -->
+      <!-- Search Form end -->
+
+      <!-- Shopping Cart start -->
+      <div class="shopping-cart">
+        <h2 class="cart-title">Your Cart</h2>
+        <!-- Content -->
+        <div class="cart-content">
+          <div class="cart-box">
+            <img src="img/products/arabica-bag.png" alt="" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-product-title">Arabica</div>
+              <div class="cart-price">IDR 30K</div>
+              <input type="number" value="1" class="cart-quantity">
+            </div>
+
+            <!-- Remover Cart -->
+            <img src="img/Icon/trash-alt-solid-24.png" alt="" class="cart-remove" >
+          </div>
+        </div>
+        <!-- Total -->
+        <div class="total">
+          <div class="total-title">Total</div>
+          <div class="total-price">IDR 30</div>
+        </div>
+        <!-- Buy Botton -->
+        <button type="button" class="btn-buy">Buy Now</button>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Floating Button -->
+    <a href="https://wa.wizard.id/7bb159" target="_blank">
+        <button class="btn-floating whatsapp">
+            <img src="img/Icon/whatsapp.png" alt="whatsApp">
+            <span>(+62) 858-6292-9211</span>
+        </button>
+    </a>
+    <!-- Floating Button End -->
+
+    <section class="hero" data-aos="fade-up" data-aos-duration="2000">
+      <main class="content">
+        <h1>Curio Brew <span>Coffee</span></h1>
+        <p>
+          kami percaya secangkir kopi adalah salah satu kesenangan paling
+          penting dan sederhana dalam hidup.
+        </p>
+        <a href="#products" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="about" data-aos="fade-up" data-aos-duration="1500">
+      <h2>ABOUT US</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <video autoplay width="100%">
+            <source src="vid/ActionPage.mp4" loop autoplay muted>
+          </video>
+        </div>
+        <div class="content">
+          <h3>Kenapa memilih kopi kami?</h3>
+          <p>
+            Curio Brew dibuat dengan kejujuran dan aksesibilitas. Curio Brew
+            menawarkan kopi premium, dicampur secara unik dan diproduksi dengan
+            mempertimbangkan kualitasnya.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Menu Section start -->
+    <section id="menu" class="menu" data-aos="fade-up" data-aos-duration="1500">
+      <h2><span>COFFEE</span> MENU</h2>
+      <p>
+        Kami menyediakan berbagai jenis kopi dengan cita rasa khas dari
+        jenis-jenis kopi terkenal.
+      </p>
+
+      <!-- Table -->
+      <table data-aos="zoom-in" data-aos-duration="1500">
+        <tr>
+          <th>NO</th>
+          <th>MENU</th>
+          <th>ROAST LEVEL</th>
+          <th>PRICE</th>
+        </tr>
+        <tr>
+          <td>01.</td>
+          <td>Arabica</td>
+          <td>Light Roast</td>
+          <td>IDR 87K</td>
+        </tr>
+        <tr>
+          <td>02.</td>
+          <td>Robusta</td>
+          <td>Dark Roast</td>
+          <td>IDR 170K</td>
+        </tr>
+        <tr>
+          <td>03.</td>
+          <td>Liberica</td>
+          <td>Extra Dark Roast</td>
+          <td>IDR 237K</td>
+        </tr>
+        <tr>
+          <td>04.</td>
+          <td>Decaf</td>
+          <td>Light Roast</td>
+          <td>IDR 320K</td>
+        </tr>
+        <tr>
+          <td>05.</td>
+          <td>Luwak</td>
+          <td>Medium Roast</td>
+          <td>IDR 430K</td>
+        </tr>
+        <tr>
+          <td>06.</td>
+          <td>Gayo</td>
+          <td>Dark Roast</td>
+          <td>IDR 165K</td>
+        </tr>
+      </table>
+    <!-- Menu Section End -->
+      
+    <!-- Products Section start -->
+    <section class="products" id="products" data-aos="fade-up"
+    data-aos-duration="1500">
+      <h2><span>PRODUK UNGGULAN</span> KAMI</h2>
+      <p>Produk kami terbuat dari biji kopi yang diproses melalui berbagai tahapan, termasuk penanaman, pemetikan, pengolahan dan penggilingan.</p>
+
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center py-5" style="text-align: center;">
+          <div data-reflow-type="product-search" style="width: 50%;text-align: center;"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center col-12">
+            <div class="d-xl-flex" data-reflow-type="product-list" data-reflow-layout="cards" data-reflow-perpage="4" data-reflow-order="date_desc" style="text-align: center;"></div>
+        </div>
+      </div>
+    <!-- Products Section end -->
+
+    <!-- Contact Section start -->
+    <section id="contact" class="contact" data-aos="fade-up" data-aos-duration="1500">
+      <h2><span>KONTAK</span> KAMI</h2>
+      <p>
+       Jika anda mempunyai pertanyaan, bantuan dan saran. Silahkan hubungi kami, terima kasih.
+      </p>
+
+      <div class="row"  data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0521412159824!2d106.61373159678956!3d-6.256861899999978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fb56b25975f9%3A0x50c7d605ba8542f5!2sUniversitas%20Multimedia%20Nusantara!5e0!3m2!1sid!2sid!4v1685157399511!5m2!1sid!2sid" 
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        class="map">
+      </iframe>
+      <div class="contact-btn">
+        <form action="https://wa.wizard.id/7bb159">
+          <button type="submit" class="btn">kirim pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">Group 5 </a>. | &copy; 2023.</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Modal Box Item Detail start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="produkkopi1">
+        <div class="modal-container">
+          <a href="#" class="close-icon"><i data-feather="x"></i></a>
+            <div class="modal-content">
+              <img src="img/products/arabica-bag.png" alt="Product 1" />
+              <div class="product-content">
+                <h3>ARABICA</h3>
+                <p>
+                Salah satu faktor atau ciri khas utama adalah dari segi rasa. Kopi Arabica memiliki rasa lebih manis dan memiliki kandungan atau tingkat keasaman lebih tinggi dibanding kopi lainnya. Karena biji kopi ini lebih aromatik. Kandungan kadar kafein pada kopi arabica lebih rendah 2x lipat dibandingkan dengan biji kopi jenis Robusta.
+                </p>
+                <div class="product-stars">
+                  <i data-feather="star" class="star-full"></i>
+                  <i data-feather="star" class="star-full"></i>
+                  <i data-feather="star" class="star-full"></i>
+                  <i data-feather="star" class="star-full"></i>
+                  <i data-feather="star"></i>
+                </div>
+              <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="produkkopi2">
+        <div class="modal-container">
+          <a href="#" class="close-icon"><i data-feather="x"></i></a>
+          <div class="modal-content">
+            <img src="img/products/robusta-bag.png" alt="Product 2" />
+            <div class="product-content">
+              <h3>ROBUSTA</h3>
+              <p>
+                Kopi Robusta memiliki rasa yang lebih pahit dibandingkan dengan kopi Arabica. Namun kopi ini memiliki tingkat keasaman lebih rendah dibandingkan dengan kopi jenis Arabica. Kadar kafein pada kopi Robusta 2x lipat lebih tinggi dibandingkan dengan kopi jenis lainnya terutama Arabica. Karena kandungan kafein yang tinggi ini serta sifat kafein yang memiliki rasa pahit
+              </p>
+              <div class="product-stars">
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star"></i>
+              </div>
+              <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Item Detail end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Animation Link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
+    <script src="https://cdn.reflowhq.com/v2/toolkit.min.js" data-reflow-store="1810691302"></script>
+  </body>
+</html>
